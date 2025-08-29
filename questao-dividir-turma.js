@@ -1,16 +1,15 @@
-const alunos = [
-    "Carolina",
-    "Mateus",
-    "Isabela",
-    "Rafael",
-    "Bianca",
-    "Henrique",
-    "Luana",
-    "Fernando",
-    "Aline"
+const salaES = [
+    "joão",
+    "ana",
+    "caio",
 ];
 
-const lista1 = alunos.slice(0, alunos.length / 2);
-const lista2 = alunos.slice(alunos.length / 2);
+const salaPython = [
+    "lara",
+    "marjorie",
+    "léo"
+];
 
-console.log(lista1, lista2);
+const palestra = salaES.concat(salaPython);
+
+console.log(palestra);
