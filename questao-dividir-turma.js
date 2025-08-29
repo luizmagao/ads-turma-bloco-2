@@ -1,15 +1,15 @@
-const salaES = [
+const estudantes = [
     "joão",
     "ana",
     "caio",
 ];
 
-const salaPython = [
-    "lara",
-    "marjorie",
-    "léo"
+const notas = [
+    10,
+    8.9,
+    4.7
 ];
 
-const palestra = salaES.concat(salaPython);
+const lista = [estudantes, estudantes];
 
-console.log(palestra);
+console.log(lista);
