@@ -1,16 +1,11 @@
-const estudantes = [
-    'luiz',
-    'lins',
-    'monteiro',
-    'junior'
-];
+const estudantes = ['luiz','lins','monteiro','junior'];
 
-const medias = [
-    10,
-    9.5,
-    8.3,
-    7
-];
+const medias = [10,9.5,8.3,7];
+
+const lista = [estudantes, medias];
+
+const [a, m] = lista;
+console.log(a, m);
 
 const funcao = function(aluno) {
     if( estudantes.includes(aluno) ) {
