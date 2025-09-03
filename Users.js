@@ -8,6 +8,10 @@ export default class User {
         this.ativo = ativo
     }
 
+    get nome() {
+        return this.#nome
+    }
+
     exibirInfos() {
         return `${this.#nome}, ${this.email}`
     }
