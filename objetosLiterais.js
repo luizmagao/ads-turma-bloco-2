@@ -8,3 +8,5 @@ const user = {
         console.log(this.nome, this.email);
     }   
 }
+
+user.exibirInfos();
