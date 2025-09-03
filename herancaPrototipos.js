@@ -15,7 +15,14 @@ const admin = {
     nascimento: "2024-01-01",
     role: "admin",
     ativo: true,
-    exibirInfos: function() {
-        console.log(this.nome, this.email);
+    // exibirInfos: function() {
+    //     console.log(this.nome, this.email);
+    // },
+    criarCurso: function() {
+        console.log('Curso criado');
     }
 }
+
+Object.setPrototypeOf(admin, user);
+admin.criarCurso();
+admin.exibirInfos();
