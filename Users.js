@@ -1,7 +1,7 @@
 export default class User {
-    
+    #nome
     constructor(nome, email, nascimento, role, ativo =  true) {
-        this.nome = nome
+        this.#nome = nome
         this.email = email
         this.nascimento = nascimento
         this.role = role || "estudante"
@@ -9,7 +9,7 @@ export default class User {
     }
 
     exibirInfos() {
-        return `${this.nome}, ${this.email}`
+        return `${this.#nome}, ${this.email}`
     }
 
 }
