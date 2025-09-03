@@ -9,4 +9,6 @@ const user = {
     }   
 }
 
-user.exibirInfos();
+// user.exibirInfos();
+const exibir = user.exibirInfos;
+exibir();
