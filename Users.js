@@ -15,5 +15,6 @@ class User {
 }
 
 const novoUser = new User('Juliana', 'j@j.com', '1985-10-27')
-console.log(novoUser)
-console.log(novoUser.exibirInfos())
+// console.log(novoUser)
+// console.log(novoUser.exibirInfos())
+console.log(User.prototype.isPrototypeOf(novoUser));
